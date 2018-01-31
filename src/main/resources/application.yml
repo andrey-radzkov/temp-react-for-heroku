@@ -29,11 +29,11 @@ zuul:
   routes:
     api:
       path: /api/**
-      url: http://localhost:9000
+      url: https://backend-for-react-resource.herokuapp.com
       rewrite: /api
     uaa:
       path: /uaa/**
-      url: http://localhost:9999
+      url: https://backend-for-react-authserver.herokuapp.com
 
 logging:
   level:
