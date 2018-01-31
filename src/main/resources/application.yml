@@ -21,6 +21,7 @@ zuul:
       rewrite: /api
     uaa:
       path: /uaa/**
+      sensitiveHeaders:
       url: https://backend-for-react-authserver.herokuapp.com/uaa
 
 logging:
