@@ -33,8 +33,7 @@ zuul:
       rewrite: /api
     uaa:
       path: /uaa/**
-      url: https://backend-for-react-authserver.herokuapp.com
-      rewrite: /uaa
+      url: https://backend-for-react-authserver.herokuapp.com/uaa
 
 logging:
   level:
