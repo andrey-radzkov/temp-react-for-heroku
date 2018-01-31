@@ -17,6 +17,7 @@ zuul:
   routes:
     api:
       path: /api/**
+      sensitiveHeaders:
       url: https://backend-for-react-resource.herokuapp.com
       rewrite: /api
     uaa:
