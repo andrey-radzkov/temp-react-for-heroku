@@ -34,6 +34,7 @@ zuul:
     uaa:
       path: /uaa/**
       url: https://backend-for-react-authserver.herokuapp.com
+      rewrite: /uaa
 
 logging:
   level:
