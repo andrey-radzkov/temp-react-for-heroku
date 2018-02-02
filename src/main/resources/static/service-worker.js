@@ -7,7 +7,7 @@ self.addEventListener('install', function (event) {
       return cache.addAll([
         '/',
         OFFLINE_URL,
-        'main.026dd25de8282790edda.js',
+        'main.1026dd25de8282790edda.js',
         'favicon.ico',
         'manifest.json',
       ]);
