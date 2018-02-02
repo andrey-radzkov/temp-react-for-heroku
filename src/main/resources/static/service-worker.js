@@ -1,5 +1,6 @@
 const OFFLINE_URL = 'offline-page.html';
-
+//TODO: copy images
+//TODO: prod urls
 self.addEventListener('install', function (event) {
   event.waitUntil(
     //TODO: production mode
@@ -7,7 +8,7 @@ self.addEventListener('install', function (event) {
       return cache.addAll([
         '/',
         OFFLINE_URL,
-        'main.026dd25de8282790edda.js',
+        'main.4e991df78d29e519b55a.js',
         'favicon.ico',
         'manifest.json',
       ]);
